@@ -1,0 +1,24 @@
+{
+    "name": "viginesganeson/ezcel",
+    "description": "Excel is easy",
+    "keywords": ["excel", "composer", "package"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vigines Ganeson",
+            "email": "viginesjohn@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "ViginesGaneson\\EzCel\\": "src/"
+        }
+    }
+}
